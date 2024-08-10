@@ -1,7 +1,7 @@
 <x-layout.master>
   {{ $slot }}
 
-  @prepend('body::js::scripts')
+  @prependOnce('scripts')
     @vite('resources/js/pages/landing.js')
-  @endprepend
+  @endprependonce
 </x-layout.master>

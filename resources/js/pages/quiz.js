@@ -1,1 +1,5 @@
-console.log("Quiz page scripts");
+function main() {
+  console.log("Quiz page scripts");
+}
+
+main();

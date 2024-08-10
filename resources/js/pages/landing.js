@@ -1,1 +1,5 @@
-console.log("Landing page scripts");
+function main() {
+  console.log("Landing page scripts");
+}
+
+main();

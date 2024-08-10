@@ -23,8 +23,7 @@
 <body>
   {{ $slot }}
   @vite('resources/js/app.js')
-  @stack('body::js::vendors')
-  @stack('body::js::scripts')
+  @stack('scripts')
 </body>
 
 </html>
