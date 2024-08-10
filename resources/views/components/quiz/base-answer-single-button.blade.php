@@ -1,6 +1,6 @@
-@props(['value', 'class' => 'button-answer'])
+@props(['value', 'class'])
 
-<button class="@twMerge($class)" data-value="{{ $value }}" x-on:click="$store.quiz.handleSingleAnswerClick">
+<button class="@twMerge($class)" data-value="{{ $value }}">
   {{ $slot }}
 </button>
 

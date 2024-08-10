@@ -1,3 +1,3 @@
-<main x-data>
+<main>
   {{ $slot }}
 </main>
