@@ -1,5 +1,5 @@
 <x-pages.landing>
-  <x-funnels.main.landing.header />
+  <x-funnels.main.shared.header />
   <main>
     content
   </main>

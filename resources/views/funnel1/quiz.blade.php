@@ -54,5 +54,6 @@
               'subLabel' => 'Sub label',
           ],
       ]" />
+    <x-funnels.main.quiz.question-intermediate key="intermediate" />
   </x-funnels.main.quiz.container>
 </x-pages.quiz>
