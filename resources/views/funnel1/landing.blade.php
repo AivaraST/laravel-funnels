@@ -1,7 +1,7 @@
-<x-pages.landing>
+<x-layouts.pages.landing>
   <x-funnels.main.shared.header />
   <main>
-    content
+    Landing page content
   </main>
   <x-funnels.main.landing.footer />
-</x-pages.landing>
+</x-layouts.pages.landing>

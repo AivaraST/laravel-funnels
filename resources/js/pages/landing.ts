@@ -1,5 +1,7 @@
-function main() {
+function start() {
   console.log("Landing page scripts");
 }
 
-main();
+start();
+
+export {};

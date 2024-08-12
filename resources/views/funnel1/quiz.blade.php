@@ -1,5 +1,9 @@
-<x-pages.quiz>
+<x-layouts.pages.quiz>
   <x-funnels.main.quiz.header />
+  <main>
+    Quiz page content
+  </main>
+  {{-- <x-funnels.main.quiz.header />
   <x-funnels.main.quiz.container>
     <x-funnels.main.quiz.question-single title="Single" subTitle="Single subtitle" key="single" :answers="[
         [
@@ -55,5 +59,5 @@
           ],
       ]" />
     <x-funnels.main.quiz.question-intermediate key="intermediate" />
-  </x-funnels.main.quiz.container>
-</x-pages.quiz>
+  </x-funnels.main.quiz.container> --}}
+</x-layouts.pages.quiz>
