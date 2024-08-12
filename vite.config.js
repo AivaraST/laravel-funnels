@@ -13,7 +13,7 @@ export default defineConfig({
         "resources/js/pages/email.ts",
         "resources/js/pages/password.ts",
         "resources/js/pages/payments/checkout.ts",
-        "resources/js/pages/payments/upsell.ts",
+        "resources/js/pages/payments/upsells/workouts.ts",
       ],
       refresh: true,
     }),
